@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+.app__graph {
+  font-family: sans-serif;
+  text-align: center;
+}
+.element.style {
+  margin-top: 100px;
+
+
+}
