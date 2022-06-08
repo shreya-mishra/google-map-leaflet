@@ -32,7 +32,7 @@ const LeafletgeoSearch = () => {
 
   return null;
 };
-function App() {
+const App = () => {
 
   return (
 
