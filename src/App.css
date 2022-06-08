@@ -1,9 +1,10 @@
 .app__graph {
-  font-family: sans-serif;
-  text-align: center;
-}
-.element.style {
-  margin-top: 100px;
-
-
+  position: absolute;
+  top: 0;
+  z-index: 10000;
+  width: 500px;
+  top: 30px;
+  background: white;
+  top: 100px;
+  border-radius: 10px;
 }

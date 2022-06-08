@@ -9,6 +9,7 @@ import { useEffect } from "react";
 import icon from "./constants";
 import  { data, lineOptions } from './graph/LineGraph';
 import { Line } from "react-chartjs-2";
+import "./App.css"
 
 
 const LeafletgeoSearch = () => {
