@@ -2,7 +2,7 @@ export const data = {
     labels: ["Jan", "Feb", "Mar", "Apr", "Mei", "Jun"],
     datasets: [
         {
-          label: "Job opportunities",
+          label: "Format Change Over Time",
           fill: false,
           lineTension: 0.1,
           backgroundColor: "black",
@@ -12,7 +12,7 @@ export const data = {
           borderDashOffset: 0.0,
           borderJoinStyle: "miter",
           pointBorderColor: "red",
-          pointBackgroundColor: "#fff",
+          pointBackgroundColor: "black",
           pointBorderWidth: 5,
           pointHoverRadius: 5,
           pointHoverBackgroundColor: "rgba(75,192,192,1)",
@@ -59,7 +59,7 @@ export const data = {
   
               // Convert the array to a string and format the output
               value = value.join(".");
-              return `Rp.${value}`;
+              return `${value}`;
             }
           }
         }
